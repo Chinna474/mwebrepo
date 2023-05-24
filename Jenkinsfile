@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Cloning repo') {
             steps {
-                git credentialsId: 'git_credentials', url: 'https://github.com/shashikanth-t/mwebrepo.git'
+                git credentialsId: 'git_credentials', url: 'https://github.com/Chinna474/mwebrepo.git'
                 echo 'Code Checkout done sucessfully.'
             }
 			}
